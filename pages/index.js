@@ -9,12 +9,14 @@ import {
   Button
 } from '@chakra-ui/react'
 import Section from '../components/section'
+import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import {ChevronRightIcon} from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
   return (
+    <Layout>
     <Container>
       <Box
         borderRadius="lg"
@@ -58,10 +60,10 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Tosa is a freelance and fullstack developer based in Phnom Penh with
+          Tosa is a freelancer and fullstack developer based in Phnom Penh with
           passion building digital work he wants. Currently he is working on {' '}
           <NextLink href="/works/inkdrop">
-            <Link>InkDrop</Link>
+            <Link>Nothing</Link>
           </NextLink>.
         </Paragraph>
         <Box align="center" my={4}>
@@ -81,13 +83,13 @@ const Page = () => {
         </BioSection>
         <BioSection>
           <BioYear>
-            2020  - Now
+            2020 to present
           </BioYear>
           Currently stuying Information Technology at Royal University of Phnom Penh(RUPP).
         </BioSection>
         <BioSection>
           <BioYear>
-            2022 - now
+            2022 to present
           </BioYear>
           Working as a freelance.
         </BioSection>
@@ -107,6 +109,7 @@ const Page = () => {
       </Section>
 
     </Container>
+    </Layout>
   )
 }
 
