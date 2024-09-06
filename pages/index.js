@@ -22,11 +22,11 @@ const Page = () => {
         borderRadius="lg"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         p={3}
-        mt={1}
+        mt={3}
         mb={6}
         align="center"
       >
-        Hello, I&apos;m a full-stack dev In Phom Penh!
+        Hi, I&apos;m Tosa a full-stack dev from Cambodia!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -62,12 +62,12 @@ const Page = () => {
         <Paragraph>
           Tosa is a freelancer and fullstack developer based in Phnom Penh with
           passion building digital work he wants. Currently he is working on {' '}
-          <NextLink href="/works/inkdrop">
+          <NextLink href="/works/nothing">
             <Link>Nothing</Link>
           </NextLink>.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works">
+          <NextLink href="https://github.com/yomantosa">
             <Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">My portfolio</Button>
           </NextLink>
         </Box>
@@ -78,20 +78,37 @@ const Page = () => {
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2001</BioYear>
-          Born in Phnom Penh, Cambodia.
+          <BioYear>2019:</BioYear>
+          <br/>
+          Graduated from Hun sen Bunrany Wat Phnom High School.
         </BioSection>
         <BioSection>
           <BioYear>
-            2020 to present
+            2019 to 2023:
           </BioYear>
-          Currently stuying Information Technology at Royal University of Phnom Penh(RUPP).
+          <br/>
+          Studied Computer Science at Royal University of Phnom Penh (RUPP).
         </BioSection>
         <BioSection>
           <BioYear>
-            2022 to present
+            2022 to September 2023:
           </BioYear>
-          Working as a freelance.
+          <br/>
+          Working as a freelancer.
+        </BioSection>
+        <BioSection>
+          <BioYear>
+            September 2023 to August 2024:
+          </BioYear>
+          <br/>
+          Working at CMED Construction as a Software Developer.
+        </BioSection>
+        <BioSection>
+          <BioYear>
+            September 2024 to Present:
+          </BioYear>
+          <br/>
+          Currently Studying Master of Computer Science (MCS) at Charles University in Czech Republic.
         </BioSection>
       </Section>
 
@@ -104,7 +121,7 @@ const Page = () => {
           <Link href='https://hirokita.itch.io/'>
           Making Game
           </Link>
-          , and Machine Learning
+          , Machine Learning and Technologies
         </Paragraph>
       </Section>
 
