@@ -43,7 +43,7 @@ const Navbar = props => {
       w="100%"
       bg={useColorModeValue('#ffffff40', '#20202380')}
       style={{ backdropFilter: 'blur(10px' }}
-      zindex={1}
+      zIndex={2}
       {...props}
     >
       <Container
@@ -67,12 +67,12 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, nmd: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          {/* <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
           <LinkItem href="/posts" path={path}>
             Posts
-          </LinkItem>
+          </LinkItem> */}
         </Stack>
         <Box flex={1} align="right">
           <ThemeToggleButton />
@@ -90,7 +90,7 @@ const Navbar = props => {
                     About
                   </MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
+                {/* <NextLink href="/works" passHref>
                   <MenuItem as={Link} href="/">
                     Works
                   </MenuItem>
@@ -99,7 +99,7 @@ const Navbar = props => {
                   <MenuItem as={Link} href="/">
                     Posts
                   </MenuItem>
-                </NextLink>
+                </NextLink> */}
                 <MenuItem as={Link} href="/">
                   View Source
                 </MenuItem>
