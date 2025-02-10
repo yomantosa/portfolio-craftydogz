@@ -94,14 +94,14 @@ const Page = () => {
             2022 to September 2023:
           </BioYear>
           <br/>
-          Working as a freelancer.
+          Experienced in freelance.
         </BioSection>
         <BioSection>
           <BioYear>
             September 2023 to August 2024:
           </BioYear>
           <br/>
-          Working at CMED Construction as a Software Developer.
+          Experienced as a full time Software Developer at CMED Construction.
         </BioSection>
         <BioSection>
           <BioYear>

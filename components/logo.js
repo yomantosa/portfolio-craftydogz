@@ -22,12 +22,19 @@ font-weight: bold;
 `
 
 const Logo = () => {
-    const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+    // const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+    const footPrintImg = `/images/booba.gif`
     return(
         <Link href="/">
             <a>
                 <LogoBox >
-                <Image src={footPrintImg} width={20} height={20}alt="logo"/>  
+                <Image 
+                src={footPrintImg} 
+                width={25} 
+                height={25} 
+                alt="logo"
+                />  
+                
                 <Text 
                 color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                 fontFamily='M PLUS Rounded 1c", sans-serif'
